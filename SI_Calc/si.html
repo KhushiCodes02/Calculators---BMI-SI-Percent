@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI Calculator</title>
+    <link rel="stylesheet" href="si.css">
+</head>
+<body>
+    <h1>LOAN CALCULATOR</h1>
+    <br>
+    <form class="si-form">
+        <label for="principal"><strong>PRINCIPAL:</strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+        <input id="principal" type="text" placeholder="Enter principal amount (in rupees)" required>
+        <br>
+        <br>
+        <label for="rate"><strong>INTEREST RATE:</strong></label>
+        <input id="rate" type="text" placeholder="Enter rate of interest (in %)" required>
+        <br>
+        <br>
+        <label for="time"><strong>TIME:</strong>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+        <input id="time" type="text" placeholder="Enter time (in years)" >
+        <br>
+        <br>
+        <div id="results"></div>
+        
+        <input type="submit" value="Calculate" id="calculate">
+    </form>
+    <script src="si.js"></script>
+</body>
+</html>
